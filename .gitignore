@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.env
+.env.*
+
+# FastAPI / Uvicorn
+instance/
+*.pid
+
+# React / Node.js
+node_modules/
+dist/
+build/
+*.log
+*.cache
+.npm/
+
+# IDE'ler
+.vscode/
+.idea/
+*.swp
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Docker
+*.sock
+docker-compose.override.yml
+
+# Test / Çıktılar
+coverage/
+htmlcov/
+pytest_cache/
+*.out
+
+# Local config
+*.local.*
+*.example.*
+
+# VS Code debug
+*.code-workspace
+
