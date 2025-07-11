@@ -1,0 +1,53 @@
+# ⛔ PHP test cache dosyaları
+/.phpunit.cache
+.phpunit.result.cache
+
+# 📦 Node.js bağımlılıkları
+/node_modules
+
+# 🔧 Laravel Mix / Vite hot reload dosyaları
+/public/hot
+/public/build
+
+# 📁 Laravel storage dosyaları (runtime, logs, cache vs.)
+/public/storage
+/storage/*.key
+storage/
+bootstrap/cache/
+
+# 📦 Composer vendor klasörü
+/vendor
+
+# 🔐 Ortam dosyaları (hem ana hem tenant için)
+.env
+.env.*
+*.tenant.env
+.env.backup
+.env.production
+
+# 🛠️ Laravel Homestead yapılandırmaları
+Homestead.json
+Homestead.yaml
+
+# 📄 Kimlik dosyaları / hata kayıtları
+auth.json
+npm-debug.log
+yarn-error.log
+
+# ⚙️ Laravel SaaS: tenant bazlı sqlite veritabanları ve yedekler
+database/tenants/*.sqlite
+database/backups/
+
+# 🧠 IDE ve geliştirme ortamı dosyaları
+/.fleet
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# 🖥️ İşletim sistemi dosyaları (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+
+
